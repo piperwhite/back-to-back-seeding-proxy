@@ -1,1 +1,1 @@
-# back-to-back-seeding-proxy
+# back-to-back-seeding-proxyd
