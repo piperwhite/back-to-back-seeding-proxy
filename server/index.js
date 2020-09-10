@@ -45,6 +45,11 @@ app.post('/rooms/:room_id/reservations', (req, res) => {
     });
 });
 
+/* Route for loaderio */
+app.get('/loaderio-83dc117556c7f94eeadc7d6b4a6ab1ba', (req, res) => {
+  res.sendFile(__dirname+'/loaderio-83dc117556c7f94eeadc7d6b4a6ab1ba.txt');
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
